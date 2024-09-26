@@ -28,7 +28,7 @@ This project is a Stock Management Application that consists of a frontend UI an
 
 2. **Change to the Project Directory**
 
-    cd InterviewProjectBroadcom
+    cd StockManagementBroadcom
 
 3. **Install Dependencies**
 
