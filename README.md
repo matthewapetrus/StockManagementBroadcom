@@ -58,16 +58,16 @@ This project is a Stock Management Application that consists of a frontend UI an
 
     Open the index.html file in your web browser.
 
-## Serving the UI
+## Serving the UI**
 
-    UI is served along with backend using Express. In server.js, 
-    [ app.use(express.static(path.join(__dirname, '../client'))); ] serves the frontend 
-    files located in the client directory when the backend server is running.
+1. **Serve UI using Express**
+
+    In server.js, "app.use(express.static(path.join(__dirname, '../client')));" 
+    serves the frontend files located in the client directory when the backend server 
+    is running.
     
     Visit http://localhost:3001 to show the UI.
 
-## GitHub Repository
-
-    You can view or clone the repository from the following URL:
+## GitHub Repository**
     
     https://github.com/matthewapetrus/StockManagementBroadcom.git
