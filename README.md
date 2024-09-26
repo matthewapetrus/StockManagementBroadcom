@@ -57,7 +57,7 @@ This project is a Stock Management Application that consists of a frontend UI an
     
     Visit http://localhost:3001 to show the UI.
 
-## GitHub Repository**
+## GitHub Repository
     
 1. **GitHub Repository Link**
 
