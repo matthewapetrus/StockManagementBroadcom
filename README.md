@@ -58,7 +58,7 @@ This project is a Stock Management Application that consists of a frontend UI an
 
     Open the index.html file in your web browser.
 
-## Serving the UI**
+## Serving the UI
 
 1. **Serve UI using Express**
 
@@ -70,4 +70,6 @@ This project is a Stock Management Application that consists of a frontend UI an
 
 ## GitHub Repository**
     
+1. **GitHub Repository Link**
+
     https://github.com/matthewapetrus/StockManagementBroadcom.git
