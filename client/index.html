@@ -1,0 +1,39 @@
+<!-- 
+    Author: Matthew Petrus
+    Description: This HTML document sets up a basic structure for a Stock Management application,
+    allowing users to filter stocks by tags, view stock details, and manage stocks.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stock Management</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Stock Management</h1>
+        <label for="tagFilter">Tag Filter:</label>
+        <select id="tagFilter">
+            <option value="All">All</option>
+        </select>
+        <table id="stockTable">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Last Price</th>
+                    <th>Market Cap</th>
+                    <th>Tag</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div id="detailPanel" style="display: none;"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

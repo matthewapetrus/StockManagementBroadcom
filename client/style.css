@@ -1,0 +1,57 @@
+/* 
+    Author: Matthew Petrus
+    Description: This CSS file styles the Stock Management application,
+    providing a clean and user-friendly interface for managing stock data.
+*/
+
+h1 {
+    text-align: center;          /* Centers the text horizontally */
+    position: absolute;          /* Allows for positioning in the center */
+    top: 10%;                    /* Moves the element to the vertical middle */
+    left: 50%;                   /* Moves the element to the horizontal middle */
+    transform: translate(-50%, -50%); /* Ensures it stays perfectly centered */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the body */
+    margin: 20px;                   /* Adds margin around the body */
+}
+
+label {
+    font-weight: bold;              /* Makes the label text bold */
+}
+
+table {
+    width: 100%;                    /* Makes the table take the full width of the container */
+    border-collapse: collapse;      /* Merges borders to remove double borders */
+    margin-top: 100px;              /* Adjusts space above the table */
+}
+
+th, td {
+    border: 1px solid #ccc;        /* Adds a light gray border to table cells */
+    padding: 8px;                  /* Adds padding inside cells for better spacing */
+    text-align: left;              /* Aligns text to the left in table cells */
+}
+
+tr:hover {
+    background-color: #f5f5f5;     /* Changes row background on hover for better visibility */
+}
+
+.action-icon {
+    cursor: pointer;               /* Changes cursor to pointer to indicate interactivity */
+    display: none;                 /* Hides the action icon by default */
+}
+
+tr:hover .action-icon {
+    display: inline;               /* Displays the action icon when hovering over the row */
+}
+
+#detailPanel {
+    margin-top: 20px;              /* Adds space above the detail panel */
+    border: 2px solid #007BFF;     /* Sets a blue border around the panel */
+    border-radius: 5px;            /* Rounds the corners of the panel */
+    padding: 15px;                 /* Adds padding inside the panel for better layout */
+    background-color: #f9f9f9;     /* Sets a light gray background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    display: none;                 /* Hides the panel initially */
+}

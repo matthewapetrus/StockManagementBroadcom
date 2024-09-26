@@ -1,0 +1,6 @@
+[
+    { "symbol": "AAPL", "name": "Apple Inc.", "last_price": 150, "market_cap": "2.5T", "tag": "Tech" },
+    { "symbol": "GOOGL", "name": "Alphabet Inc.", "last_price": 2800, "market_cap": "1.8T", "tag": "Tech" },
+    { "symbol": "AMZN", "name": "Amazon.com Inc.", "last_price": 3400, "market_cap": "1.7T", "tag": "E-commerce" },
+    { "symbol": "TSLA", "name": "Tesla Inc.", "last_price": 800, "market_cap": "800B", "tag": "Automotive" }
+]
