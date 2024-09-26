@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware setup
 app.use(cors()); // Enable CORS for all requests
 app.use(bodyParser.json()); // Parse JSON request bodies
-app.use(express.static(path.join(__dirname, 'client'))); // Serve static files from the client directory
+app.use(express.static(path.join(__dirname, '../client'))); // Serve static files from the client directory
 
 // Endpoint to get all stocks
 app.get('/api/stocks', (req, res) => {
