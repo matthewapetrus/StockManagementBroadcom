@@ -46,7 +46,7 @@ This project is a Stock Management Application that consists of a frontend UI an
 
     node server.js
 
-    The server will start and be accessible at http://localhost:3001/api/stocks
+    The server will start and be accessible at http://localhost:3001.
 
 ## Running the Frontend
 
@@ -61,7 +61,8 @@ This project is a Stock Management Application that consists of a frontend UI an
 ## Serving the UI
 
     UI is served along with backend using Express. In server.js, 
-    [ app.use(express.static(path.join(__dirname, '../client'))); ] serves the frontend files located in the client directory when the backend server is running.
+    [ app.use(express.static(path.join(__dirname, '../client'))); ] serves the frontend 
+    files located in the client directory when the backend server is running.
     
     Visit http://localhost:3001 to show the UI.
 
