@@ -8,7 +8,6 @@ This project is a Stock Management Application that consists of a frontend UI an
 - [Setup Instructions](#setup-instructions)
 - [Running the Mock Backend](#running-the-mock-backend)
 - [Running the Frontend](#running-the-frontend)
-- [Serving the UI](#serving-the-ui)
 - [GitHub Repository](#github-repository)
 
 ## Technologies Used
@@ -49,16 +48,6 @@ This project is a Stock Management Application that consists of a frontend UI an
     The server will start and be accessible at http://localhost:3001.
 
 ## Running the Frontend
-
-1. **Open the Frontend Directory**
-
-    cd client
-
-2. **Open the Index File**
-
-    Open the index.html file in your web browser.
-
-## Serving the UI
 
 1. **Serve UI using Express**
 
